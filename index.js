@@ -79,6 +79,7 @@ async function handleRequest(request) {
   else if (pathname === '/api/latest-news') mod = latestNewsMod;
   else if (pathname === '/api/date') mod = dateMod;
   else if (pathname === '/api/search') mod = searchMod;
+  else if (pathname === '/api/test') { mod = require('./api/test.js'); }
   else if (pathname.startsWith('/api/article/')) mod = articleMod;
   else if (pathname.startsWith('/api/category/')) mod = categoryMod;
 

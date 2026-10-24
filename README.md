@@ -211,7 +211,7 @@ curl "https://hiru-news-api.ravijaanthony.workers.dev/api/date?date=2026-01-12"
 ### 6. English Language Version
 
 ```bash
-curl "https://hiru-news-api.ravijaanthony.workers.dev/api/breaking-news?limit=3&lang=en"
+curl "https://hiru-news-api.ravijaanthony.workers.dev/api/breaking-news?limit=3&lang=eng"
 curl "https://hiru-news-api.ravijaanthony.workers.dev/api/latest-news?limit=5&lang=tam"
 ```
 
